@@ -15,7 +15,7 @@ jobs:
 
       - name: make pakeges dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip3 install --upgrade pip3
           pip install poetry
           package-install
 

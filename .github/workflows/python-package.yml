@@ -8,19 +8,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps
+       steps:
 
 
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: make pakeges dependencies
          run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: poetry
-        run:  |
         pip install poetry
-
+        package-install
+    
       - name: Hexlet make lint
         run: make lint

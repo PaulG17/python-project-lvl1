@@ -24,8 +24,3 @@ jobs:
         make install
     - name: Hexlet make lint
       run: make lint
-
-
-
-
-

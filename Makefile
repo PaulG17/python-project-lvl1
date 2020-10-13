@@ -5,7 +5,7 @@ brain-games:
 build:
 	poetry build
 package-install:
-	pip install --user dist/*.whl
+	pip3 install --user dist/*.whl
 make lint:
 	poetry run flake8 brain_games
 brain-even:

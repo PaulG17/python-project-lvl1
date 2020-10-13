@@ -1,6 +1,7 @@
 import random
 import prompt
 
+
 def YesNo():
     print("Welcome to the Brain Games!")
     user_name = prompt.string("May I have your name? ")
@@ -20,6 +21,7 @@ def YesNo():
             print('Correct!')
             i += 1
         else:
-            print(f"'{yesno}' is wrong answer ;(. Correct answer was '{yesno_real}'.")
+            print(f"'{yesno}' is wrong answer ;(. "
+                  f"Correct answer was '{yesno_real}'.")
             print(f"Let's try again, {user_name}")
     print(f'Congratulations, {user_name}!')

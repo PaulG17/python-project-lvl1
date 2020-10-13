@@ -4,3 +4,14 @@
 Welcome. Welcome to Brain Games. You have chosen, or been chosen, to relocate to one of our finest remaining Level 1 project.
 
  
+Installation:
+[![asciicast](https://asciinema.org/a/365080.svg)](https://asciinema.org/a/365080)
+
+Start:
+[![asciicast](https://asciinema.org/a/365077.svg)](https://asciinema.org/a/365077)
+
+Win:
+[![asciicast](https://asciinema.org/a/365085.svg)](https://asciinema.org/a/365085)
+
+Defeat:
+[![asciicast](https://asciinema.org/a/365087.svg)](https://asciinema.org/a/365087)

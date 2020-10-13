@@ -4,3 +4,4 @@ dist/
 *.pyc
 .venv/
 brain_games.__pycache__
+.pypirc

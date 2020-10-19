@@ -1,13 +1,12 @@
-from brain_games.cli import user_answer
-from brain_games.cli import start
+from brain_games.cli import welcome_user, user_answer
 
 
 max_round = 3
-def start_game(game):
-    player_name = start
+def start_game(input):
+    player_name = welcome_user(input.condition)
     score = 0
     while score < max_round:
-        ask, right = game.start_game()
+        ask, right = input.start_game()
         answer = user_answer(ask)
         if answer != right:
             print(

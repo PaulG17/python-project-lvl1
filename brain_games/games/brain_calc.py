@@ -2,7 +2,7 @@ from operator import add, mul, sub
 from random import randint, choice
 
 
-condition = "What is the result of the expression?"
+DESCRIPTION = "What is the result of the expression?"
 operator = [("+", add), ("*", mul), ("-", sub)]
 
 

@@ -1,10 +1,10 @@
 from random import randint
 
 
-condition = 'Answer "yes" if number even otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def run_game():
+def start_game():
     question = randint(1, 100)
     if question % 2 == 0:
         bool_right = "yes"

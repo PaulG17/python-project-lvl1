@@ -12,6 +12,7 @@ def make_progression():
 
     return progression
 
+
 def start_game():
     progression = make_progression()
     skip = randint(0, 9)

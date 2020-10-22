@@ -3,24 +3,19 @@
 
 Welcome. Welcome to Brain Games. You have chosen, or been chosen, to relocate to one of our finest remaining Level 1 project.
 
- 0.Games Installation:
-
+0.Games installation:  pip3 install -i https://test.pypi.org/simple/ paul19-brain-games
 
 
 1.Game brain-even: Answer "yes" if the number is even, otherwise answer "no".
 
 
-
 2.Game brain-calc: What is the result of the expression?
-
 
 
 3.Game brain-gcd: Find the greatest common divisor of given numbers.
 
 
-
 4.Game brain-progression: What number is missing in the progression?
-
 
 
 5.Game brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".

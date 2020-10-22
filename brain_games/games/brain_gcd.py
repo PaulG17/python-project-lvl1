@@ -1,6 +1,8 @@
 from random import randint
 
+
 DESCRIPTION = "Find the greatest common divisor of given numbers."
+
 
 def start_game():
     one = randint(1, 100)

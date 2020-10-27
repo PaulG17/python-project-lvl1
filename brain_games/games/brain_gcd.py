@@ -10,7 +10,7 @@ def start_game():
     question = f"{one} {two}"
     correct = get_gcd(one, two)
 
-    return (question, str(correct))
+    return question, str(correct)
 
 
 def get_gcd(one, two):

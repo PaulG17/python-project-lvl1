@@ -3,14 +3,14 @@ from random import randint, choice
 
 
 DESCRIPTION = "What is the result of the expression?"
-operator = [("+", add), ("*", mul), ("-", sub)]
 
 
 def start_game():
     one = randint(1, 100)
     two = randint(1, 100)
+    operator = [("+", add), ("*", mul), ("-", sub)]
     action, function = choice(operator)
-    ask = f"{one} {action} {two}"
-    right = function(one, two)
+    answer = f"{one} {action} {two}"
+    right_answer = function(one, two)
 
-    return ask, str(right)
+    return answer, str(right_answer)

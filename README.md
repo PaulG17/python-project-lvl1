@@ -8,7 +8,7 @@ You have chosen, or been chosen, to relocate to one of our finest remaining Leve
 
 
 0.Games installation:  pip3 install -i https://test.pypi.org/simple/ paul19-brain-games
-[![asciicast](https://asciinema.org/a/367653.svg)](https://asciinema.org/a/367653)
+[![asciicast](https://asciinema.org/a/368412.svg)](https://asciinema.org/a/368412)
 
 1.Game brain-even: Answer "yes" if the number is even, otherwise answer "no".
 [![asciicast](https://asciinema.org/a/367870.svg)](https://asciinema.org/a/367870)

@@ -7,8 +7,8 @@ DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 def start_game():
     question = randint(1, 100)
     if question % 2 == 0:
-        correct = "yes"
+        right_answer = "yes"
     else:
-        correct = "no"
+        right_answer = "no"
 
-    return question, correct
+    return question, right_answer

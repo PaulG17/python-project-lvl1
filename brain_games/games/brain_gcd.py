@@ -8,9 +8,9 @@ def start_game():
     one = randint(1, 100)
     two = randint(1, 100)
     question = f"{one} {two}"
-    correct = make_gcd(one, two)
+    right_answer = make_gcd(one, two)
 
-    return question, str(correct)
+    return question, str(right_answer)
 
 
 def make_gcd(one, two):

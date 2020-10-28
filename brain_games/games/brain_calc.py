@@ -11,6 +11,6 @@ def start_game():
     operator = [("+", add), ("*", mul), ("-", sub)]
     action, function = choice(operator)
     question = f"{one} {action} {two}"
-    correct = function(one, two)
+    right_answer = function(one, two)
 
-    return question, str(correct)
+    return question, str(right_answer)

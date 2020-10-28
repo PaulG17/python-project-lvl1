@@ -8,12 +8,12 @@ def start_game(game):
     print(game.DESCRIPTION)
     round_number = 0
     while round_number < MAX_ROUND:
-        ask, right = game.start_game()
-        answer = get_answer(ask)
+        question, right_answer = game.start_game()
+        answer = get_answer(question)
         round_number += 1
-        if answer != right:
+        if answer != right_answer:
             print(f"'{answer}' is wrong answer ;(.",
-                  f"Correct answer was '{right}'.", )
+                  f"Correct answer was '{right_answer}'.", )
             print(f"Let's try again, {player_name}!")
             break
         else:

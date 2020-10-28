@@ -7,9 +7,9 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def start_game():
     question = randint(0, 100)
-    right = 'yes' if make_prime(question) else 'no'
+    correct = 'yes' if make_prime(question) else 'no'
 
-    return question, right
+    return question, correct
 
 
 def make_prime(num):

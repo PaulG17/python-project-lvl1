@@ -10,7 +10,7 @@ def start_game():
     two = randint(1, 100)
     operator = [("+", add), ("*", mul), ("-", sub)]
     action, function = choice(operator)
-    answer = f"{one} {action} {two}"
-    right_answer = function(one, two)
+    question = f"{one} {action} {two}"
+    correct = function(one, two)
 
-    return answer, str(right_answer)
+    return question, str(correct)

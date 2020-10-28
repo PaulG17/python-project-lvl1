@@ -5,7 +5,14 @@ import math
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(num):
+def start_game():
+    question = randint(0, 100)
+    right = 'yes' if make_prime(question) else 'no'
+
+    return question, right
+
+
+def make_prime(num):
     number = math.sqrt(num)
 
     i = 2
@@ -14,11 +21,5 @@ def is_prime(num):
             return False
         else:
             i += 1
+
     return True
-
-
-def start_game():
-    question = randint(0, 100)
-    right = 'yes' if is_prime(question) else 'no'
-
-    return question, right

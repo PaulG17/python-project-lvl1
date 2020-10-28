@@ -20,4 +20,4 @@ def start_game():
     progression[skip] = ".."
     question = " ".join(progression)
 
-    return (question, correct)
+    return question, correct

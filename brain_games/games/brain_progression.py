@@ -17,7 +17,8 @@ def start_game():
     progression = make_progression()
     skip = randint(0, 9)
     right_answer = progression[skip]
-    progression[skip] = ".."
-    question = " ".join(progression)
+    question = " ".join([
+        str(n) if i != skip else ".."
+        for i,n in enumerate(progression)])
 
     return question, right_answer

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "paul19_brain_games"
-version = "0.9.2"
+version = "0.9.5"
 description = "hexlet project lv1"
 classifiers = [
   "Environment :: Console",

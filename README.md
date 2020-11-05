@@ -19,8 +19,8 @@ You have chosen, or been chosen, to relocate to one of our finest remaining Leve
 - Game brain-gcd: Find the greatest common divisor of given numbers.
 [![asciicast](https://asciinema.org/a/367872.svg)](https://asciinema.org/a/367872)
 
-4.Game brain-progression: What number is missing in the progression?
+- Game brain-progression: What number is missing in the progression?
 [![asciicast](https://asciinema.org/a/367873.svg)](https://asciinema.org/a/367873)
 
-5.Game brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
+- Game brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 [![asciicast](https://asciinema.org/a/367874.svg)](https://asciinema.org/a/367874)

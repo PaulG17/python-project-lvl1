@@ -19,6 +19,6 @@ def start_game():
     right_answer = progression[skip]
     question = " ".join([
         str(n) if i != skip else ".."
-        for i,n in enumerate(progression)])
+        for i, n in enumerate(progression)])
 
     return question, right_answer

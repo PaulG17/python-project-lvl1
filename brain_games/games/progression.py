@@ -15,7 +15,8 @@ def make_progression():
 
 def start_game():
     progression = make_progression()
-    skip = randint(0, 9)
+    lenght = 9
+    skip = randint(0, lenght)
     right_answer = progression[skip]
     question = " ".join([
         str(n) if i != skip else ".."

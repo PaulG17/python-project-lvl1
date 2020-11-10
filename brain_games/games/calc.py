@@ -8,9 +8,9 @@ DESCRIPTION = "What is the result of the expression?"
 def start_game():
     one = randint(1, 100)
     two = randint(1, 100)
-    operator_list = [("+", add), ("*", mul), ("-", sub)]
-    action, function = choice(operator_list)
+    operators = [("+", add), ("*", mul), ("-", sub)]
+    action, element = choice(operators)
     question = f"{one} {action} {two}"
-    right_answer = function(one, two)
+    right_answer = element(one, two)
 
     return question, str(right_answer)

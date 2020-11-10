@@ -8,12 +8,12 @@ def start_game():
     one = randint(1, 100)
     two = randint(1, 100)
     question = f"{one} {two}"
-    right_answer = make_gcd(one, two)
+    right_answer = gcd(one, two)
 
     return question, str(right_answer)
 
 
-def make_gcd(one, two):
+def gcd(one, two):
     if one == two:
         return one
     if one < two:

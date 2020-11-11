@@ -1,5 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/0af5e1a9b6c03c6fb915/maintainability)](https://codeclimate.com/github/PaulG17/python-project-lvl1/maintainability)
-[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge)](https://github.com/PaulG17/python-project-lvl1/actions)
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge)](https://github.com/PaulG17/python-project-lvl1/actions/lint)
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge)](https://github.com/PaulG17/python-project-lvl1/actions/hexlet-check)
 
 
 Welcome. 

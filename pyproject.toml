@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet_code"
-version = "0.9.6"
+version = "0.9.7"
 description = "hexlet project lv1"
 classifiers = [
   "Environment :: Console",

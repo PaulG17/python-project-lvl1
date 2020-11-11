@@ -5,12 +5,12 @@ from random import randint, choice
 DESCRIPTION = "What is the result of the expression?"
 
 
-def start_game():
+def prepare_round():
     one = randint(1, 100)
     two = randint(1, 100)
-    operators = [("+", add), ("*", mul), ("-", sub)]
-    action, element = choice(operators)
+    operations = [("+", add), ("*", mul), ("-", sub)]
+    action, operation = choice(operations)
     question = f"{one} {action} {two}"
-    right_answer = element(one, two)
+    right_answer = operation(one, two)
 
     return question, str(right_answer)

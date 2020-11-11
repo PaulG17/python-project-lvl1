@@ -4,7 +4,7 @@ from random import randint
 DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
-def start_game():
+def prepare_round():
     one = randint(1, 100)
     two = randint(1, 100)
     question = f"{one} {two}"

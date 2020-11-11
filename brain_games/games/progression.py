@@ -16,7 +16,7 @@ def make_progression(length):
 def prepare_round():
     length = 10
     progression = make_progression(length)
-    missing_element_index = randint(0, length-1)
+    missing_element_index = randint(0, length - 1)
     right_answer = progression[missing_element_index]
     question = " ".join([
         str(n) if i != missing_element_index else ".."
